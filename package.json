@@ -4,7 +4,8 @@
   "description": "Acortador URL's con Express y Mongoose",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./index.js "
+    "desarrolo": "nodemon ./index.js",
+    "start": "node ./index.js "
   },
   "author": "Juan De la torre",
   "license": "ISC",
@@ -14,9 +15,10 @@
   "dependencies": {
     "connect-mongo": "^3.0.0",
     "cookie-parser": "^1.4.4",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
-    "mongoose": "^5.6.4",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
     "pug": "^2.0.4",
     "session": "^0.1.0",
     "shortid": "^2.2.14",

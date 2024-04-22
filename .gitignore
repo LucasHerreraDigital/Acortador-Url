@@ -1,0 +1,5 @@
+node_modules
+README.md
+variables.env
+urls.json
+.DS_Store
